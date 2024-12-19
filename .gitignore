@@ -1,0 +1,12 @@
+.idea/
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore Docker-related files (if needed)
+*.log
