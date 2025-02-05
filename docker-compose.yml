@@ -24,3 +24,6 @@ services:
       POSTGRES_DB: ${DB_NAME}
 volumes:
   postgres_data:
+
+env_file:
+  - .env
